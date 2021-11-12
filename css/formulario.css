@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 1200px;
+    height: 640px;
+    background: #afaaaa;
+
+    margin: 0.5em auto;
+    padding: 00.5em;
+}
+
+.header{
+    height: 10%;
+    background: #006699;
+    border-radius: 1em;
+    position: relative;
+}
+
+.txtHeader{
+    font-family: arial;
+    font-size: 24px;
+    color: white;
+ 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    margin: auto; 
+ 
+    text-align: center;
+ }
+
+
+
+#contenido{
+    height: 85%;
+}
+
+.footer{
+    height: 5%;
+    background: #006699;
+    color: #d8d8d8;
+    position: relative;
+}
+    
+#section{
+    height: 100%;
+    width: 84%;
+    background: rgb(167, 167, 172);
+    float: left;
+}
+
+#aside{
+    height: 100%;
+    width: 16%;
+    background: rgb(107, 231, 24);
+    float: right;
+}
+
+#h3{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.txtFooter{
+   font-family: arial;
+   font-size: 18px;
+
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 50%;
+   margin: auto;
+
+   text-align: right;
+}
+
+/* Diseño del formulario */
+/*
+.formulario{
+    width: 600px;
+    background-color: rgb(150, 165, 160);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri" ;
+    font-size: 18px;
+    box-shadow: 7px 13px 37px #000;
+}
+*/
+
+.formulario h2 {
+    font-size: 22px;
+    font-family: tahoma;
+    margin-bottom: 20px;
+    color: rgb(6, 16, 102);
+}
+
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+}
+
+
